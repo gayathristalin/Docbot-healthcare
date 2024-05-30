@@ -1,0 +1,65 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9e1e1; /* Soft pink background color */
+}
+
+.chat-box {
+  width: 70%;
+  max-width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  height: 70vh;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 5px;
+  word-wrap: break-word;
+  margin: 5px;
+}
+
+.left {
+  background-color: #e2e2e2; /* Patient's message background color */
+  align-self: flex-start;
+}
+
+.right {
+  background-color: #f5d2d2; /* Admin's message background color */
+  align-self: flex-end;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.input-container input {
+  width: 10px;
+  flex: 10;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  font-size: 14px; /* Reduce font size */
+}
+
+.input-container button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff99c2; /* Soft pink button color */
+  color: #fff;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #e57393; /* Darker pink on hover */
+}
